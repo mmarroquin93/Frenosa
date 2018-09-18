@@ -127,19 +127,19 @@ p:empty {
   }
   .busquedamod{
     display: none;
+      height: auto !important;
   }
+    
 
-  .busquedamod1{
-    display: none;
-  }
-  .botonbusqueda{
-    display: none;
-  }
 
-    .botonbusqueda1{
-      display: none;
+    
+    .busqueda-desktop{
+     display: none;   
     }
 
+    .busqueda-mobile{
+        display: block !important;
+    }
 }
 @media (max-width: 767px) {
   .info {
@@ -8354,7 +8354,7 @@ display: none !important;
   header.page-header .navbar-toggle {
   position: absolute;
     z-index: 1;
-    top: 63px;
+    top: 21px;
     right: 10px;
     padding: 0 8px;
     margin: 0;
